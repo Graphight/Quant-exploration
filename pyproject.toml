@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "quant-exploration"
+version = "0.0.1"
+description = "Messing around with various market data"
+authors = ["Tom Marsh <tom.ian.marsh@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.3.2"
+# numpy = { version = "^1.21.2", python_version = "~3.9" }
+lightgbm = "^3.2.1"
+jupyter = "^1.0.0"
+pyarrow = "^5.0.0"
+tqdm = "^4.62.2"
+plotly = "^5.3.1"
+matplotlib = "^3.4.3"
+streamlit = "^0.88.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
