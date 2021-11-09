@@ -1,6 +1,7 @@
 # Data collections
 **/*.parquet
 **/*.csv
+**/*.zip
 
 # Notebook checkpoints
 .ipynb_checkpoints/**
